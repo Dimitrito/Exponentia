@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/UnityThemes/Guide.uss" />
+    <ui:VisualElement name="root" class="menu-root">
+        <ui:Label name="title" text="Guide" class="menu-title" />
+        <ui:Label name="description" text="Welcome to Exponentia! \nHere you can learn how to play the game. Merge cubes with the same value and earn points!" class="menu-text" />
+        <ui:Button name="backButton" text="Back" class="menu-button" />
+    </ui:VisualElement>
+</ui:UXML>

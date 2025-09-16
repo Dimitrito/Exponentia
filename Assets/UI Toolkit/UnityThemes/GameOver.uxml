@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/UnityThemes/GameOver.uss?fileID=7433441132597879392&amp;guid=ad3b39cb2298bab45b47fbff85ac6dcc&amp;type=3#GameOver" />
+    <ui:VisualElement name="root" class="menu-root">
+        <ui:Label name="title" text="Game Over" class="menu-title" />
+        <ui:Label name="description" text="The cube touched the red line, your score is 55" class="menu-text" />
+        <ui:Button name="menuButton" text="Menu" class="menu-button" />
+    </ui:VisualElement>
+</ui:UXML>
